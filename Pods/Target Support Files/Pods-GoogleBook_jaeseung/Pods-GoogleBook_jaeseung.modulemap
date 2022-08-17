@@ -1,0 +1,6 @@
+framework module Pods_GoogleBook_jaeseung {
+  umbrella header "Pods-GoogleBook_jaeseung-umbrella.h"
+
+  export *
+  module * { export * }
+}

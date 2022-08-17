@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FB6F0228AB990A0000AC89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB6F0128AB990A0000AC89 /* AppDelegate.swift */; };
+		31FB6F0428AB990A0000AC89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB6F0328AB990A0000AC89 /* SceneDelegate.swift */; };
+		31FB6F0628AB990A0000AC89 /* SearchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB6F0528AB990A0000AC89 /* SearchListViewController.swift */; };
+		31FB6F0928AB990A0000AC89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FB6F0728AB990A0000AC89 /* Main.storyboard */; };
+		31FB6F0B28AB990C0000AC89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FB6F0A28AB990C0000AC89 /* Assets.xcassets */; };
+		31FB6F0E28AB990C0000AC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FB6F0C28AB990C0000AC89 /* LaunchScreen.storyboard */; };
+		31FB6F1928AB990C0000AC89 /* GoogleBook_jaeseungTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB6F1828AB990C0000AC89 /* GoogleBook_jaeseungTests.swift */; };
+		31FB6F2328AB990C0000AC89 /* GoogleBook_jaeseungUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB6F2228AB990C0000AC89 /* GoogleBook_jaeseungUITests.swift */; };
+		31FB6F2528AB990C0000AC89 /* GoogleBook_jaeseungUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB6F2428AB990C0000AC89 /* GoogleBook_jaeseungUITestsLaunchTests.swift */; };
+		75A0B4C909BC7A270117A376 /* Pods_GoogleBook_jaeseungTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79E6C291F33D2C4916A85AC /* Pods_GoogleBook_jaeseungTests.framework */; };
+		9DC13E38CDBF9CB735CB6C10 /* Pods_GoogleBook_jaeseung_GoogleBook_jaeseungUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599B034129C92BD786AD39BC /* Pods_GoogleBook_jaeseung_GoogleBook_jaeseungUITests.framework */; };
+		F0C9D16F813659F4DF275235 /* Pods_GoogleBook_jaeseung.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9042F918A61B9C4D223CF600 /* Pods_GoogleBook_jaeseung.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31FB6F1528AB990C0000AC89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FB6EF628AB990A0000AC89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FB6EFD28AB990A0000AC89;
+			remoteInfo = GoogleBook_jaeseung;
+		};
+		31FB6F1F28AB990C0000AC89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FB6EF628AB990A0000AC89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FB6EFD28AB990A0000AC89;
+			remoteInfo = GoogleBook_jaeseung;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DFB9565DFCEDF4584772F78 /* Pods-GoogleBook_jaeseungTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBook_jaeseungTests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleBook_jaeseungTests/Pods-GoogleBook_jaeseungTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31FB6EFE28AB990A0000AC89 /* GoogleBook_jaeseung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleBook_jaeseung.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FB6F0128AB990A0000AC89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31FB6F0328AB990A0000AC89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31FB6F0528AB990A0000AC89 /* SearchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListViewController.swift; sourceTree = "<group>"; };
+		31FB6F0828AB990A0000AC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31FB6F0A28AB990C0000AC89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31FB6F0D28AB990C0000AC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31FB6F0F28AB990C0000AC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FB6F1428AB990C0000AC89 /* GoogleBook_jaeseungTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBook_jaeseungTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FB6F1828AB990C0000AC89 /* GoogleBook_jaeseungTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBook_jaeseungTests.swift; sourceTree = "<group>"; };
+		31FB6F1E28AB990C0000AC89 /* GoogleBook_jaeseungUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBook_jaeseungUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FB6F2228AB990C0000AC89 /* GoogleBook_jaeseungUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBook_jaeseungUITests.swift; sourceTree = "<group>"; };
+		31FB6F2428AB990C0000AC89 /* GoogleBook_jaeseungUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBook_jaeseungUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51D9B8DA3FDE0028C15DF469 /* Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests.release.xcconfig"; path = "Target Support Files/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests.release.xcconfig"; sourceTree = "<group>"; };
+		599B034129C92BD786AD39BC /* Pods_GoogleBook_jaeseung_GoogleBook_jaeseungUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleBook_jaeseung_GoogleBook_jaeseungUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE3A047D3473A1B07513F55 /* Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F40C7AC3549722AAD8C3F09 /* Pods-GoogleBook_jaeseung.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBook_jaeseung.debug.xcconfig"; path = "Target Support Files/Pods-GoogleBook_jaeseung/Pods-GoogleBook_jaeseung.debug.xcconfig"; sourceTree = "<group>"; };
+		9042F918A61B9C4D223CF600 /* Pods_GoogleBook_jaeseung.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleBook_jaeseung.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B184231800D6A1AE38B4E9 /* Pods-GoogleBook_jaeseung.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBook_jaeseung.release.xcconfig"; path = "Target Support Files/Pods-GoogleBook_jaeseung/Pods-GoogleBook_jaeseung.release.xcconfig"; sourceTree = "<group>"; };
+		B79E6C291F33D2C4916A85AC /* Pods_GoogleBook_jaeseungTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleBook_jaeseungTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDBC16EAB706978DC7F19CF /* Pods-GoogleBook_jaeseungTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBook_jaeseungTests.release.xcconfig"; path = "Target Support Files/Pods-GoogleBook_jaeseungTests/Pods-GoogleBook_jaeseungTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31FB6EFB28AB990A0000AC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C9D16F813659F4DF275235 /* Pods_GoogleBook_jaeseung.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FB6F1128AB990C0000AC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A0B4C909BC7A270117A376 /* Pods_GoogleBook_jaeseungTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FB6F1B28AB990C0000AC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC13E38CDBF9CB735CB6C10 /* Pods_GoogleBook_jaeseung_GoogleBook_jaeseungUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31F9D2A228AC8A5700CB3952 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31FB6F0528AB990A0000AC89 /* SearchListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31F9D2A328AC8A5C00CB3952 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		31F9D2A428AC8A6700CB3952 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31F9D2A528AC8A6C00CB3952 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		31FB6EF528AB990A0000AC89 = {
+			isa = PBXGroup;
+			children = (
+				31FB6F0028AB990A0000AC89 /* GoogleBook_jaeseung */,
+				31FB6F1728AB990C0000AC89 /* GoogleBook_jaeseungTests */,
+				31FB6F2128AB990C0000AC89 /* GoogleBook_jaeseungUITests */,
+				31FB6EFF28AB990A0000AC89 /* Products */,
+				B02AA6489046864C46009C42 /* Pods */,
+				89C7EAF2100906D6EAAB95F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31FB6EFF28AB990A0000AC89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31FB6EFE28AB990A0000AC89 /* GoogleBook_jaeseung.app */,
+				31FB6F1428AB990C0000AC89 /* GoogleBook_jaeseungTests.xctest */,
+				31FB6F1E28AB990C0000AC89 /* GoogleBook_jaeseungUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31FB6F0028AB990A0000AC89 /* GoogleBook_jaeseung */ = {
+			isa = PBXGroup;
+			children = (
+				31FB6F0128AB990A0000AC89 /* AppDelegate.swift */,
+				31FB6F0328AB990A0000AC89 /* SceneDelegate.swift */,
+				31F9D2A528AC8A6C00CB3952 /* Entity */,
+				31F9D2A428AC8A6700CB3952 /* Model */,
+				31F9D2A328AC8A5C00CB3952 /* ViewModel */,
+				31F9D2A228AC8A5700CB3952 /* View */,
+				31FB6F0728AB990A0000AC89 /* Main.storyboard */,
+				31FB6F0A28AB990C0000AC89 /* Assets.xcassets */,
+				31FB6F0C28AB990C0000AC89 /* LaunchScreen.storyboard */,
+				31FB6F0F28AB990C0000AC89 /* Info.plist */,
+			);
+			path = GoogleBook_jaeseung;
+			sourceTree = "<group>";
+		};
+		31FB6F1728AB990C0000AC89 /* GoogleBook_jaeseungTests */ = {
+			isa = PBXGroup;
+			children = (
+				31FB6F1828AB990C0000AC89 /* GoogleBook_jaeseungTests.swift */,
+			);
+			path = GoogleBook_jaeseungTests;
+			sourceTree = "<group>";
+		};
+		31FB6F2128AB990C0000AC89 /* GoogleBook_jaeseungUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31FB6F2228AB990C0000AC89 /* GoogleBook_jaeseungUITests.swift */,
+				31FB6F2428AB990C0000AC89 /* GoogleBook_jaeseungUITestsLaunchTests.swift */,
+			);
+			path = GoogleBook_jaeseungUITests;
+			sourceTree = "<group>";
+		};
+		89C7EAF2100906D6EAAB95F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9042F918A61B9C4D223CF600 /* Pods_GoogleBook_jaeseung.framework */,
+				599B034129C92BD786AD39BC /* Pods_GoogleBook_jaeseung_GoogleBook_jaeseungUITests.framework */,
+				B79E6C291F33D2C4916A85AC /* Pods_GoogleBook_jaeseungTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02AA6489046864C46009C42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F40C7AC3549722AAD8C3F09 /* Pods-GoogleBook_jaeseung.debug.xcconfig */,
+				92B184231800D6A1AE38B4E9 /* Pods-GoogleBook_jaeseung.release.xcconfig */,
+				6CE3A047D3473A1B07513F55 /* Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests.debug.xcconfig */,
+				51D9B8DA3FDE0028C15DF469 /* Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests.release.xcconfig */,
+				1DFB9565DFCEDF4584772F78 /* Pods-GoogleBook_jaeseungTests.debug.xcconfig */,
+				EBDBC16EAB706978DC7F19CF /* Pods-GoogleBook_jaeseungTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31FB6EFD28AB990A0000AC89 /* GoogleBook_jaeseung */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FB6F2828AB990C0000AC89 /* Build configuration list for PBXNativeTarget "GoogleBook_jaeseung" */;
+			buildPhases = (
+				4114401AE1531153F9000562 /* [CP] Check Pods Manifest.lock */,
+				31FB6EFA28AB990A0000AC89 /* Sources */,
+				31FB6EFB28AB990A0000AC89 /* Frameworks */,
+				31FB6EFC28AB990A0000AC89 /* Resources */,
+				13C9CC018319C88BB377ECF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleBook_jaeseung;
+			productName = GoogleBook_jaeseung;
+			productReference = 31FB6EFE28AB990A0000AC89 /* GoogleBook_jaeseung.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31FB6F1328AB990C0000AC89 /* GoogleBook_jaeseungTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FB6F2B28AB990C0000AC89 /* Build configuration list for PBXNativeTarget "GoogleBook_jaeseungTests" */;
+			buildPhases = (
+				5B12337A21D7FBF565C4D246 /* [CP] Check Pods Manifest.lock */,
+				31FB6F1028AB990C0000AC89 /* Sources */,
+				31FB6F1128AB990C0000AC89 /* Frameworks */,
+				31FB6F1228AB990C0000AC89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31FB6F1628AB990C0000AC89 /* PBXTargetDependency */,
+			);
+			name = GoogleBook_jaeseungTests;
+			productName = GoogleBook_jaeseungTests;
+			productReference = 31FB6F1428AB990C0000AC89 /* GoogleBook_jaeseungTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31FB6F1D28AB990C0000AC89 /* GoogleBook_jaeseungUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FB6F2E28AB990C0000AC89 /* Build configuration list for PBXNativeTarget "GoogleBook_jaeseungUITests" */;
+			buildPhases = (
+				9CE73EB023E0ED838DE22B34 /* [CP] Check Pods Manifest.lock */,
+				31FB6F1A28AB990C0000AC89 /* Sources */,
+				31FB6F1B28AB990C0000AC89 /* Frameworks */,
+				31FB6F1C28AB990C0000AC89 /* Resources */,
+				6A004579A7360694A186114F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31FB6F2028AB990C0000AC89 /* PBXTargetDependency */,
+			);
+			name = GoogleBook_jaeseungUITests;
+			productName = GoogleBook_jaeseungUITests;
+			productReference = 31FB6F1E28AB990C0000AC89 /* GoogleBook_jaeseungUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31FB6EF628AB990A0000AC89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					31FB6EFD28AB990A0000AC89 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					31FB6F1328AB990C0000AC89 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 31FB6EFD28AB990A0000AC89;
+					};
+					31FB6F1D28AB990C0000AC89 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 31FB6EFD28AB990A0000AC89;
+					};
+				};
+			};
+			buildConfigurationList = 31FB6EF928AB990A0000AC89 /* Build configuration list for PBXProject "GoogleBook_jaeseung" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31FB6EF528AB990A0000AC89;
+			productRefGroup = 31FB6EFF28AB990A0000AC89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31FB6EFD28AB990A0000AC89 /* GoogleBook_jaeseung */,
+				31FB6F1328AB990C0000AC89 /* GoogleBook_jaeseungTests */,
+				31FB6F1D28AB990C0000AC89 /* GoogleBook_jaeseungUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31FB6EFC28AB990A0000AC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FB6F0E28AB990C0000AC89 /* LaunchScreen.storyboard in Resources */,
+				31FB6F0B28AB990C0000AC89 /* Assets.xcassets in Resources */,
+				31FB6F0928AB990A0000AC89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FB6F1228AB990C0000AC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FB6F1C28AB990C0000AC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13C9CC018319C88BB377ECF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleBook_jaeseung/Pods-GoogleBook_jaeseung-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleBook_jaeseung/Pods-GoogleBook_jaeseung-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleBook_jaeseung/Pods-GoogleBook_jaeseung-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4114401AE1531153F9000562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleBook_jaeseung-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B12337A21D7FBF565C4D246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleBook_jaeseungTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A004579A7360694A186114F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE73EB023E0ED838DE22B34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31FB6EFA28AB990A0000AC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FB6F0628AB990A0000AC89 /* SearchListViewController.swift in Sources */,
+				31FB6F0228AB990A0000AC89 /* AppDelegate.swift in Sources */,
+				31FB6F0428AB990A0000AC89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FB6F1028AB990C0000AC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FB6F1928AB990C0000AC89 /* GoogleBook_jaeseungTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FB6F1A28AB990C0000AC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FB6F2528AB990C0000AC89 /* GoogleBook_jaeseungUITestsLaunchTests.swift in Sources */,
+				31FB6F2328AB990C0000AC89 /* GoogleBook_jaeseungUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31FB6F1628AB990C0000AC89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31FB6EFD28AB990A0000AC89 /* GoogleBook_jaeseung */;
+			targetProxy = 31FB6F1528AB990C0000AC89 /* PBXContainerItemProxy */;
+		};
+		31FB6F2028AB990C0000AC89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31FB6EFD28AB990A0000AC89 /* GoogleBook_jaeseung */;
+			targetProxy = 31FB6F1F28AB990C0000AC89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31FB6F0728AB990A0000AC89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FB6F0828AB990A0000AC89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31FB6F0C28AB990C0000AC89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FB6F0D28AB990C0000AC89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31FB6F2628AB990C0000AC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31FB6F2728AB990C0000AC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31FB6F2928AB990C0000AC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F40C7AC3549722AAD8C3F09 /* Pods-GoogleBook_jaeseung.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A263282DX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoogleBook_jaeseung/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ljs09.GoogleBook-jaeseung";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31FB6F2A28AB990C0000AC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B184231800D6A1AE38B4E9 /* Pods-GoogleBook_jaeseung.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A263282DX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoogleBook_jaeseung/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ljs09.GoogleBook-jaeseung";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31FB6F2C28AB990C0000AC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFB9565DFCEDF4584772F78 /* Pods-GoogleBook_jaeseungTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A263282DX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ljs09.GoogleBook-jaeseungTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleBook_jaeseung.app/GoogleBook_jaeseung";
+			};
+			name = Debug;
+		};
+		31FB6F2D28AB990C0000AC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDBC16EAB706978DC7F19CF /* Pods-GoogleBook_jaeseungTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A263282DX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ljs09.GoogleBook-jaeseungTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleBook_jaeseung.app/GoogleBook_jaeseung";
+			};
+			name = Release;
+		};
+		31FB6F2F28AB990C0000AC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE3A047D3473A1B07513F55 /* Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A263282DX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ljs09.GoogleBook-jaeseungUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleBook_jaeseung;
+			};
+			name = Debug;
+		};
+		31FB6F3028AB990C0000AC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D9B8DA3FDE0028C15DF469 /* Pods-GoogleBook_jaeseung-GoogleBook_jaeseungUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A263282DX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ljs09.GoogleBook-jaeseungUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleBook_jaeseung;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31FB6EF928AB990A0000AC89 /* Build configuration list for PBXProject "GoogleBook_jaeseung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FB6F2628AB990C0000AC89 /* Debug */,
+				31FB6F2728AB990C0000AC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FB6F2828AB990C0000AC89 /* Build configuration list for PBXNativeTarget "GoogleBook_jaeseung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FB6F2928AB990C0000AC89 /* Debug */,
+				31FB6F2A28AB990C0000AC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FB6F2B28AB990C0000AC89 /* Build configuration list for PBXNativeTarget "GoogleBook_jaeseungTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FB6F2C28AB990C0000AC89 /* Debug */,
+				31FB6F2D28AB990C0000AC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FB6F2E28AB990C0000AC89 /* Build configuration list for PBXNativeTarget "GoogleBook_jaeseungUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FB6F2F28AB990C0000AC89 /* Debug */,
+				31FB6F3028AB990C0000AC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31FB6EF628AB990A0000AC89 /* Project object */;
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_GoogleBook_jaeseung_GoogleBook_jaeseungUITests : NSObject
+@end
+@implementation PodsDummy_Pods_GoogleBook_jaeseung_GoogleBook_jaeseungUITests
+@end
